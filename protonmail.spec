@@ -24,7 +24,7 @@ The ProtonMail email and calendar client as an Electron application.
 
 
 %build
-unzip %{source}
+unzip %{source} -d %{_builddir}/inbox-desktop-%{version}
 yarn install
 yarn run make --target=rpm
 
