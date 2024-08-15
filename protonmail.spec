@@ -20,7 +20,9 @@ BuildRequires:	dpkg
 The ProtonMail email and calendar client as an Electron application.
 
 %prep
+ls
 unzip %{source} -d %{_builddir}/inbox-desktop-%{version}
+ls
 %autosetup
 
 
